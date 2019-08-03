@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>报销细则</title>
+</head>
+<body>
+<ul>
+    {% for trade in tradelist %}
+        <li>{{ trade.describe }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
