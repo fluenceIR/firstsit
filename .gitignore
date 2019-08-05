@@ -1,3 +1,6 @@
 .idea/*
 manage.py
 *.sqlite3
+firstsite/__pycache__/
+office424/__pycache__/
+office424/migrations/__pycache__/
